@@ -7,8 +7,8 @@ import About from './components/About';
 function App() {
   return (
     <div className="App">
-      {/* <Menu /> */}
-      <About/>
+      <Menu />
+      {/* <About/> */}
     </div>
   );
 }
