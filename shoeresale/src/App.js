@@ -4,6 +4,8 @@ import './App.scss';
 import Menu from './components/ Menu';
 import About from './components/About';
 import Home from './components/Home';
+import Banner from './components/Banner';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,10 +18,12 @@ function App() {
     <div className="App">
       <Router>
         <Menu/>
+        <Banner/>
         <Switch>
           <Route path="/Home" exact component={Home} />
           <Route path="/About" component={About} />
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );

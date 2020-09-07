@@ -1,9 +1,9 @@
 import React from 'react';
 import Banner from "./Banner";
 
+
 function About(props) {
     return (<div>
-            < Banner />
             <div className="container">
             
                 <p className="about-box">
