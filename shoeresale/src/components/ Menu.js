@@ -40,8 +40,8 @@ export default class  Menu extends Component {
                     <input type='text' value=''></input>
                 </nav>
                 <h1>
-                    hello 
-                    {this.state.shoe1}
+                    {/* hello 
+                    {this.state.shoe1} */}
                 </h1>
             </header>
         )
