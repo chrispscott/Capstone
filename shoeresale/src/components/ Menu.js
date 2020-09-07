@@ -1,36 +1,28 @@
 import React, { Component } from 'react'
+import axios from "axios";
 
 export default class  Menu extends Component {
 
     constructor(props) {
         super(props);
         this.state = { 
-            shoe1
+            shoe1:""
             
             
          }
     }
 
-
     async getshoes(){
         const res = await axios.get("http://localhost:8080/Shoes")
-        console.log(res);
+        console.log(res.data[0].shoebrand);
         this.setState({
-            shoe1: res.data.shoebrand
+            shoe1: res.data[0].shoebrand
         })
     };
 
-
-
-
     componentDidMount() {
-        this.getshoes
+        this.getshoes()
     }
-
-
-
-
-
 
     render() {
         return (
@@ -42,10 +34,10 @@ export default class  Menu extends Component {
                     <label> Create</label>
                     <input type='text' value=''></input>
                 </nav>
-                <p>
+                <h1>
                     hello 
                     {this.state.shoe1}
-                </p>
+                </h1>
             </header>
         )
     }
