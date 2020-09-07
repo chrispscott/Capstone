@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from "axios";
+import { Link } from 'react-router-dom';
 
 export default class  Menu extends Component {
 
@@ -29,8 +30,12 @@ export default class  Menu extends Component {
             <header>
                 <div className="title">Shoe Resale</div>
                 <nav>
+                    <Link to="/Home">
                     <a  href="##">Home</a>
-                    <a  href="##">about</a>
+                    </Link>
+                    <Link to="/About">
+                    <a  href="##">About</a>
+                    </Link>
                     <label> Create</label>
                     <input type='text' value=''></input>
                 </nav>
