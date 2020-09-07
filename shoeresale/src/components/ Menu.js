@@ -36,8 +36,10 @@ export default class  Menu extends Component {
                     <Link to="/About">
                     <a  href="##">About</a>
                     </Link>
-                    <label> Create</label>
-                    <input type='text' value=''></input>
+                    <Link to="/Shop">
+                    <a href="##">Shop</a>
+                    </Link>
+                    {/* <input type='text' value=''></input> */}
                 </nav>
                 <h1>
                     {/* hello 
