@@ -3,9 +3,11 @@ import React, { Component } from 'react'
 export default class Shop extends Component {
     render() {
         return (
-            <div>
-                hello
-            </div>
+            <section>
+                <div className="container-shop">
+                    <div className="neo-product"></div>
+                </div>
+            </section>
         )
     }
 }
