@@ -1,0 +1,59 @@
+section{
+    margin: 0px;
+    padding: 0px;
+
+.container-shop1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+    .neo-product1{
+        min-height: 200px;
+        min-width:  280px;
+        margin: 50px;
+        background: $offWhite;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                    -0.5px -0.5px 0px  rgba(255,255,255,1),
+                        0.5px 0.5px 0px  rgba(0,0,0,0.15),
+                    0px 12px 10px -10px rgba(0,0,0,0.05);
+
+        
+        img{
+            height: 135px;
+            width: 203px;
+            position: relative;
+            left: 37px;
+            top: 33px;
+            opacity: 0.6;
+        }
+
+        
+        
+        &:hover{
+            background: White;
+            border: 1px solid rgba(0,0,0,0.01);
+            transform: translateY(2px);
+            box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                    -6px -6px 10px -1px rgba(255,255,255,0.7);
+                    
+        }
+        &:hover h3{
+            color: $red;
+        }
+
+    }
+    h3{
+        text-align: center;
+        color: whitesmoke;
+
+        &:hover{
+            color: $red;
+        }
+    }
+}
+}
