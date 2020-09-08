@@ -7,6 +7,8 @@ import Home from './components/Home';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Shop from './components/Shop';
+import Sell from './components/Sell';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,6 +27,7 @@ function App() {
           <Route path="/Home" exact component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Shop" component={Shop} />
+          <Route path="/Sell" component={Sell} />
         </Switch>
         <Footer/>
       </Router>

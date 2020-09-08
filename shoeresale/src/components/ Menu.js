@@ -39,6 +39,9 @@ export default class  Menu extends Component {
                     <Link to="/Shop">
                     <a href="##">Shop</a>
                     </Link>
+                    <Link to="/Sell">
+                    <a href="##">Sell</a>
+                    </Link>
                     {/* <input type='text' value=''></input> */}
                 </nav>
                 <h1>

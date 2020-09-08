@@ -8,6 +8,15 @@ export default class Shop extends Component {
                     <div className="neo-product"></div>
                     <div className="neo-product"></div>
                     <div className="neo-product"></div>
+                </div>
+                <div className="container-shop">
+                    <div className="neo-product"></div>
+                    <div className="neo-product"></div>
+                    <div className="neo-product"></div>
+                </div>
+                <div className="container-shop">
+                    <div className="neo-product"></div>
+                    <div className="neo-product"></div>
                     <div className="neo-product"></div>
                 </div>
                 
