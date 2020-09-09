@@ -46,7 +46,7 @@ export default class  Menu extends Component {
                 </nav>
                 <h1>
                     {/* hello 
-                    {this.state.shoe1} */}
+                     */}
                 </h1>
             </header>
         )

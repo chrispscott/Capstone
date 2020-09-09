@@ -6,9 +6,9 @@ export default class Sell extends Component {
             <section>
                 <h1>Sell</h1>
                 <form>
-                    <input type="text"  placeholder=" Shoe Brand "/>
-                    <input type="number"  placeholder=" $ Shoe Price "/>
-                    <input type="email" placeholder="sell@gmail.com" />
+                    <input type="text" id="brand"  placeholder=" Shoe Brand "/>
+                    <input type="number"  id="price" placeholder=" $ Shoe Price "/>
+                    <input type="email" id="mail" placeholder="sell@gmail.com" />
                     <input className="btn" type="submit" value="Post listing"/>
                 </form>
             </section>
